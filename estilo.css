@@ -1,0 +1,56 @@
+body {
+    background-image: url(backgroundtest.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.container {
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #1d1e33;
+    padding: 2rem;
+}
+
+#f-cont h1 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.f-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-green {
+    border-color: green;
+}
+
+.form-red {
+    border-color: red;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+button {
+
+    justify-items: center;
+    text-transform: uppercase;
+    border: black;
+    color: azure;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    padding: 1rem 1.5rem;
+    flex: 1;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1.2;
+}
